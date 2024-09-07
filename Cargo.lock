@@ -3,5 +3,12 @@
 version = 3
 
 [[package]]
-name = "zk"
+name = "maths"
 version = "0.1.0"
+
+[[package]]
+name = "stark"
+version = "0.1.0"
+dependencies = [
+ "maths",
+]
